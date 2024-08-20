@@ -22,10 +22,6 @@ const App = () => {
         <Footer />
       </div>
       <ButtonGradient />
-
-      {/* <Routes>
-        <Route path="/catalog-character" element={<CharacterSelection />} />
-      </Routes> */}
     </>
   );
 };

@@ -21,7 +21,6 @@ export default function CharacterSelection() {
         <button onClick={() => setSelectedModel("/models/Adventurer.glb")}>
           Character 2
         </button>
-        {/* <button onClick={() => setSelectedModel('/models/character3.glb')}>Character 3</button> */}
       </div>
       <Canvas style={{ height: "100vh", background: "#272727" }}>
         <ambientLight intensity={0.5} />

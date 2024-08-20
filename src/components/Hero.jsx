@@ -10,14 +10,7 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
 const Hero = () => {
-  // const [isButtonClicked, setIsButtonClicked] = useState(false);
-  // const navigate = useNavigate();
   const parallaxRef = useRef(null);
-
-  // const ButtonClick = () => {
-  //   setIsButtonClicked(true);
-  //   navigate("/catalog-character");
-  // };
 
   return (
     <Section
@@ -46,11 +39,7 @@ const Hero = () => {
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p>
-          <Button
-            href="/pricing"
-            white
-            // onClick={ButtonClick}
-          >
+          <Button href="/pricing" white>
             Get started
           </Button>
         </div>
