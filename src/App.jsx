@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
+import CharacterSelection from "./components/CharacterSelection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -27,6 +28,7 @@ const App = () => {
             </>
           }
         />
+        <Route path="/character-selection" element={<CharacterSelection />}/>
         <Route path="/signin" element={<Signup />} />
       </Routes>
       <ButtonGradient />
