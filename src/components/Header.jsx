@@ -1,7 +1,6 @@
-import { useLocation } from "react-router-dom";
-import { disablePageScroll, enablePageScroll } from "scroll-lock";
-
 import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { brainwave } from "../assets";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { navigation } from "../constants";
@@ -10,6 +9,10 @@ import { HamburgerMenu } from "./design/Header";
 
 const Header = () => {
   const pathname = useLocation();
+  const navigate = useNavigate();
+  const handleSignInClick = () => {
+    navigate('/signin'); 
+  };
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -73,7 +76,7 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" onClick={handleSignInClick}>
           Sign in
         </Button>
 
