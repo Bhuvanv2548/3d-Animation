@@ -25,7 +25,7 @@ function Character({ modelPath, animationName }) {
     }
   }, [actions, animationName]);
 
-  return <primitive object={scene} ref={ref} scale={0.5} />;
+  return <primitive object={scene} ref={ref} scale={3}  position={[0, -2, -1]} />;
 }
 
 export default Character;
