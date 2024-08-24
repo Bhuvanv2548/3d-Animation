@@ -212,7 +212,7 @@ export const pricing = [
     description: "AI chatbot, personalized recommendations",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
+      "A platform where user can input video in .mp4 format",
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
@@ -220,10 +220,10 @@ export const pricing = [
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
+    description: "An advanced feature of the platform where the user's video will be recorded by using the camera",
     price: "9.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
+      "An advanced AI An advanced feature of the platform where the user's video will be recorded live",
       "An analytics dashboard to track your conversations",
       "Priority support to solve issues quickly",
     ],
@@ -244,8 +244,8 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Choose Characters",
+    text: "The user gets to choose from different animation characters.  ",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -253,7 +253,7 @@ export const benefits = [
   {
     id: "1",
     title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "The app uses natural language processing to provide accurate and relevant responses.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -262,7 +262,7 @@ export const benefits = [
   {
     id: "2",
     title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "Connect with the software from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -278,8 +278,8 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Easy to use",
+    text: "Lets users quickly create 3d animations of their motion without searching through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,

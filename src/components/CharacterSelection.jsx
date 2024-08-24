@@ -58,8 +58,8 @@ export default function CharacterSelection() {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-10 max-w-[62rem] mx-auto text-center mb-8">
-          <h1 className="h1 mb-4">
-            <span className="inline-block relative">
+          <h1 className="h1 mt-10 mb-4">
+            <span className="inline-block relative mt-10">
               Select Character{" "}
               <img
                 src={curve}
